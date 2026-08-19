@@ -1,0 +1,11 @@
+{
+  "framework": "GARAS SoS v3.0",
+  "axes": [
+    { "id": "nutzen", "label": "Nutzen", "en": "Beneficence" },
+    { "id": "nicht_schaden", "label": "Nicht-Schaden", "en": "Non-maleficence" },
+    { "id": "autonomie", "label": "Autonomie", "en": "Autonomy" },
+    { "id": "gerechtigkeit", "label": "Gerechtigkeit", "en": "Justice" },
+    { "id": "transparenz", "label": "Transparenz", "en": "Transparency" },
+    { "id": "rechenschaft", "label": "Rechenschaft", "en": "Accountability" }
+  ]
+}
