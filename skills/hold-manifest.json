@@ -1,0 +1,21 @@
+{
+  "suite": "MCT-1700021",
+  "mode": "HOLD",
+  "trace_id": "MCT-1700021-TR-20260819-1313Z",
+  "parent_trace_id": "MCT-1700021-TR-20260819-1218Z",
+  "timestamp": "2026-08-19T13:13:36Z",
+  "framework": "GARAS SoS v3.0",
+  "skills": {
+    "mct-agentic-trader": "hold",
+    "wohlstandsumverteilung-finance-manager": "hold",
+    "welfare-ibc-middleware": "hold",
+    "multilingual-greeting": "hold",
+    "grok-blackbox-history": "hold",
+    "grok-imagine-api": "hold",
+    "grok-imagine-full-history": "hold",
+    "imagine-media-access": "hold",
+    "kassenbeleg-parser": "hold",
+    "sat-track-3d-ios": "hold",
+    "telegram-ios-app": "hold"
+  }
+}

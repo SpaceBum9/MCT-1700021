@@ -7,38 +7,40 @@ Lineage: `MCT-170021-CORE` ← parent `CG-KERNEL-2026-08-19`.
 
 | Field | Value |
 | --- | --- |
-| trace_id | `MCT-1700021-TR-20260819-1218Z` |
-| parent_trace_id | `MCT-1700021-TR-20260819-1107Z` |
+| trace_id | `MCT-1700021-TR-20260819-1313Z` |
+| parent_trace_id | `MCT-1700021-TR-20260819-1218Z` |
 | role | `hal` |
-| action | `deepen_trace_and_hold` |
+| action | `activate_hold_deep_trace` |
 | outcome | `held` |
 | consensus_score | `0.87` |
-| timestamp | `2026-08-19T12:18:00Z` |
+| timestamp | `2026-08-19T13:13:36Z` |
 
-Alignment: Konsens 0.87. Stärkste Achse Transparenz (0.95), schwächste Nicht-Schaden / Gerechtigkeit (0.77) — HOLD ohne Live-Wirkung. Command Centre mit Parent-Kette.
+Alignment: Konsens 0.87. Stärkste Achse Transparenz (0.96) nach Live-Audit (GitHub live, Drive partial, HF 404). Schwächste Gerechtigkeit (0.76) — Umverteilung deklarativ. HOLD ohne Live-Wirkung.
 
 ## Ethics (GARAS / SoS v3.0)
 
-- Nutzen 0.87
-- Nicht-Schaden 0.77
-- Autonomie 0.91
-- Gerechtigkeit 0.77
-- Transparenz 0.95
-- Rechenschaft 0.92
+- Nutzen 0.86
+- Nicht-Schaden 0.80
+- Autonomie 0.92
+- Gerechtigkeit 0.76
+- Transparenz 0.96
+- Rechenschaft 0.93
 
 ## Skills (HOLD)
 
 mct-agentic-trader, wohlstandsumverteilung-finance-manager, welfare-ibc-middleware, multilingual-greeting, grok-blackbox-history, grok-imagine-api, grok-imagine-full-history, imagine-media-access, kassenbeleg-parser, sat-track-3d-ios, telegram-ios-app.
 
-## Expansion
+Per-skill runtime: `skills/hold-manifest.json` + this trace. None execute.
 
-- GitHub SpaceBum9 — live (this repo + crystal-galaxy, kreuzkopplung, MCT-2600027-CMD)
-- Google Drive kernel anchors — ritual UTC files, no structured SAI JSON
-- Hugging Face `SpaceBum9/kreuzkopplung` — planned (repo is GitHub, Space not connected)
-- Reinforcement context — live
-- BILO 2026 — core
-- HAL — core
+## Expansion (audited 1313Z)
+
+- GitHub SpaceBum9 — live (this repo + crystal-galaxy, kreuzkopplung, MCT-2600027-CMD, mct-170021, plasma-toxogon)
+- Google Drive — partial (folder MCT-1700021-traces + ritual UTC anchors)
+- Hugging Face `SpaceBum9` — absent (404). kreuzkopplung is GitHub-only
+- Reinforcement context — code (`crystal-galaxy/reinforce.ts`), no live loop
+- BILO 2026 — core label (constitution)
+- HAL — session role, not a daemon
 
 ## Limits (ECHOGLAS)
 
-No raw evidence. No credentials. No live orders. No destructive automation.
+No raw evidence. No credentials. No live orders. No destructive automation. HOLD is not execution.
