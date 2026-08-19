@@ -1,7 +1,7 @@
 {
   "suite": "MCT-1700021",
   "lineage_trace_id": "MCT-170021-CORE",
-  "updated": "2026-08-19T14:14:00Z",
+  "updated": "2026-08-19T14:50:00Z",
   "chain": [
     {
       "trace_id": "CG-KERNEL-2026-08-19",
@@ -34,6 +34,13 @@
       "parent_trace_id": "MCT-1700021-TR-20260819-1313Z",
       "action": "activate_hold_console",
       "outcome": "held",
+      "consensus_score": 0.88
+    },
+    {
+      "trace_id": "MCT-1700021-TR-20260819-1450Z",
+      "parent_trace_id": "MCT-1700021-TR-20260819-1414Z",
+      "action": "register_gpt_sol_branch",
+      "outcome": "registered",
       "consensus_score": 0.88
     }
   ]
