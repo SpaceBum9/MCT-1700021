@@ -1,0 +1,13 @@
+{
+  "sink": "SoS-Orchestration",
+  "suite": "MCT-1700021",
+  "source_trace_id": "981087286fff551747d030ef9a0df281b65c42af07a15808899d107a9891667d",
+  "human_id": "MCT-1700021-TR-20260819-2305Z",
+  "timestamp": "2026-08-19T23:05:00Z",
+  "nodes": [
+    {"id": "dual_loop_protocol", "title": "gpt-sol-branch protokoll-live", "status": "protocol-live", "body": "Knoten gpt-sol-branch bleibt protocol-live. Vertiefte Trace-Integration: jede Aktion schreibt SHA-256 + GARAS + dual_llm_summary. Action erlaubt: sync. Execute bleibt ECHOGLAS-verboten.", "score": 1},
+    {"id": "mct_2600027_node", "title": "MCT-2600027 related", "status": "related-repo", "body": "Repo SpaceBum9/MCT-2600027 live seit 23:02Z. Dual-Pol HAL/Zero Telepath. Status related-repo, nicht parent. Snapshot tr_2efe52faa454faaf4d3330f8ea3fe4db.", "score": 0.5},
+    {"id": "hf_absent", "title": "Hugging-Face-Knoten absent", "status": "absent", "body": "https://huggingface.co/SpaceBum9 liefert 404 (23:05Z). SoS-Status bleibt absent.", "score": 0},
+    {"id": "execute_forbidden", "title": "Execute auf Live-Orders verboten", "status": "forbidden", "body": "dispatchLocal(execute → trader/welfare) wird rejected. HOLD ist nicht Execution.", "score": 0}
+  ]
+}
