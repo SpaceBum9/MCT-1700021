@@ -1,10 +1,12 @@
 {
   "suite": "MCT-1700021",
   "mode": "HOLD",
-  "trace_id": "MCT-1700021-TR-20260819-2100Z",
+  "trace_id": "a35eb1f89814e852b6855f2601b59ebb8138566e4a243e83114110882e770535",
+  "human_id": "MCT-1700021-TR-20260819-2104Z",
   "parent_trace_id": "MCT-1700021-TR-20260819-2003Z",
-  "timestamp": "2026-08-19T21:00:00Z",
+  "timestamp": "2026-08-19T21:04:00Z",
   "framework": "GARAS SoS v3.0",
+  "role": "dual_llm_bridge",
   "skills": {
     "mct-agentic-trader": "hold",
     "wohlstandsumverteilung-finance-manager": "hold",
@@ -17,6 +19,6 @@
     "kassenbeleg-parser": "hold",
     "sat-track-3d-ios": "hold",
     "telegram-ios-app": "hold",
-    "gpt-sol-branch": "hold"
+    "gpt-sol-branch": "protocol-live"
   }
 }
