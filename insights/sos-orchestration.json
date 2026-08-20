@@ -1,45 +1,15 @@
 {
   "sink": "SoS-Orchestration",
   "suite": "MCT-1700021",
-  "source_trace_id": "a02f15199c1834424e0687d90fd88729c923c10e0e543d5339307061595cf8c1",
-  "human_id": "MCT-1700021-TR-20260820-1114Z",
-  "timestamp": "2026-08-20T11:14:47.000Z",
+  "source_trace_id": "fca79eabddd26f009dd67163fd911f835a7d3e97b8967570f49c4f4046b0a391",
+  "human_id": "MCT-1700021-TR-20260820-1121Z",
+  "timestamp": "2026-08-20T11:21:24.000Z",
   "nodes": [
-    {
-      "id": "eighth_restore",
-      "title": "Achter Restore 20260820",
-      "status": "restored",
-      "score": 0.32
-    },
-    {
-      "id": "execute_forbidden",
-      "title": "Execute auf Live-Orders verboten",
-      "status": "forbidden",
-      "score": 0
-    },
-    {
-      "id": "hf_absent",
-      "title": "Hugging-Face-Knoten absent",
-      "status": "absent",
-      "score": 0
-    },
-    {
-      "id": "gpt_sol_branch",
-      "title": "gpt-sol-branch protocol-live",
-      "status": "protocol-live",
-      "score": 1
-    },
-    {
-      "id": "mct_2600027_node",
-      "title": "MCT-2600027 related",
-      "status": "related-repo",
-      "score": 0.5
-    },
-    {
-      "id": "deep_trace_console",
-      "title": "Vertiefte Trace-Konsole",
-      "status": "held",
-      "score": 1
-    }
+    { "id": "ninth_restore", "title": "Neunter Restore 20260820", "status": "restored", "score": 0.28 },
+    { "id": "execute_forbidden", "title": "Execute auf Live-Orders verboten", "status": "forbidden", "score": 0 },
+    { "id": "hf_absent", "title": "Hugging-Face-Knoten absent", "status": "absent", "score": 0 },
+    { "id": "gpt_sol_branch", "title": "gpt-sol-branch protocol-live", "status": "protocol-live", "score": 1 },
+    { "id": "mct_2600027_node", "title": "MCT-2600027 related", "status": "related-repo", "score": 0.5 },
+    { "id": "deep_trace_console", "title": "Vertiefte Trace-Konsole", "status": "held", "score": 1 }
   ]
 }

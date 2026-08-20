@@ -7,21 +7,21 @@ Lineage: `MCT-170021-CORE` ← parent `CG-KERNEL-2026-08-19`.
 
 | Field | Value |
 | --- | --- |
-| trace_id | `a02f15199c1834424e0687d90fd88729c923c10e0e543d5339307061595cf8c1` |
-| human_id | `MCT-1700021-TR-20260820-1114Z` |
-| parent_trace_id | `MCT-1700021-TR-20260820-0928Z` |
+| trace_id | `fca79eabddd26f009dd67163fd911f835a7d3e97b8967570f49c4f4046b0a391` |
+| human_id | `MCT-1700021-TR-20260820-1121Z` |
+| parent_trace_id | `MCT-1700021-TR-20260820-1114Z` |
 | role | `hal` |
 | action | `activate_hold_deep_trace` |
 | outcome | `held` |
-| consensus_score | `0.76` |
-| timestamp | `2026-08-20T11:14:47.000Z` |
+| consensus_score | `0.74` |
+| timestamp | `2026-08-20T11:21:24.000Z` |
 | runtime | protocol-adapter · vendor_live=false |
 
-Alignment: Konsens 0.76. Stärkste Achsen Transparenz (0.98) und Rechenschaft (0.98). Schwächste Gerechtigkeit (0.76). Restore = sync. HOLD is not execution. HF absent (404). Achter Restore 20260820.
+Alignment: Konsens 0.74. Stärkste Achsen Transparenz (0.98) und Rechenschaft (0.98). Schwächste strukturelle Achse Gerechtigkeit (0.76); Konsens durch Repeat-Restore (9. Restore 20260820) auf 0.74. Restore = sync. HOLD is not execution. HF absent (404).
 
 ## Ethics (GARAS / SoS v3.0)
 
-- Nutzen 0.76
+- Nutzen 0.74
 - Nicht-Schaden 0.93
 - Autonomie 0.93
 - Gerechtigkeit 0.76
