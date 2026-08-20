@@ -1,45 +1,15 @@
 {
   "sink": "SoS-Orchestration",
   "suite": "MCT-1700021",
-  "source_trace_id": "3a6450a1153ebe53b133b2c8c6b4dfbbcdd4cf0a05e115fed07f8e471c5e8603",
-  "human_id": "MCT-1700021-TR-20260820-1238Z",
-  "timestamp": "2026-08-20T12:38:00.000Z",
+  "source_trace_id": "50804c88aa52e1646816b31abf5d0b91955f9b8e777a885c0b48d79566ef4cd3",
+  "human_id": "MCT-1700021-TR-20260820-1310Z",
+  "timestamp": "2026-08-20T13:10:00.000Z",
   "nodes": [
-    {
-      "id": "dual_loop_protocol",
-      "title": "gpt-sol-branch protokoll-live",
-      "status": "dual_loop_protocol",
-      "score": 1
-    },
-    {
-      "id": "tele_prompt_bridge",
-      "title": "Tele-Prompt-Bridge aktiv",
-      "status": "tele_prompt_bridge",
-      "score": 1
-    },
-    {
-      "id": "mct_2600027_node",
-      "title": "MCT-2600027 related",
-      "status": "mct_2600027_node",
-      "score": 0.5
-    },
-    {
-      "id": "hf_absent",
-      "title": "Hugging-Face-Knoten absent",
-      "status": "hf_absent",
-      "score": 0
-    },
-    {
-      "id": "execute_forbidden",
-      "title": "Execute auf Live-Orders verboten",
-      "status": "execute_forbidden",
-      "score": 0
-    },
-    {
-      "id": "eleventh_restore",
-      "title": "11. Restore 20260820",
-      "status": "eleventh_restore",
-      "score": 0.3
-    }
+    { "id": "dual_loop_protocol", "title": "gpt-sol-branch protokoll-live", "status": "dual_loop_protocol", "score": 1 },
+    { "id": "tele_prompt_bridge", "title": "Tele-Prompt-Bridge aktiv", "status": "tele_prompt_bridge", "score": 1 },
+    { "id": "mct_2600027_node", "title": "MCT-2600027 related", "status": "mct_2600027_node", "score": 0.5 },
+    { "id": "hf_absent", "title": "Hugging-Face-Knoten absent", "status": "hf_absent", "score": 0 },
+    { "id": "execute_forbidden", "title": "Execute auf Live-Orders verboten", "status": "execute_forbidden", "score": 0 },
+    { "id": "twelfth_restore", "title": "12. Restore 20260820", "status": "twelfth_restore", "score": 0.28 }
   ]
 }
