@@ -7,23 +7,23 @@ Lineage: `MCT-170021-CORE` ← parent `CG-KERNEL-2026-08-19`.
 
 | Field | Value |
 | --- | --- |
-| trace_id | `7c0a5062dccd8b2b86ca066be00e695cb705b7ce46bce1c24431843b6608e83e` |
-| human_id | `MCT-1700021-TR-20260820-1231Z` |
-| parent_trace_id | `MCT-1700021-TR-20260820-1207Z` |
-| role | `dual_llm_bridge` |
-| action | `activate_tele_prompt_bridge_deep_trace` |
-| outcome | `bridged` |
-| consensus_score | `82` |
-| timestamp | `2026-08-20T12:31:00.000Z` |
+| trace_id | `95453ebb31ba339156d2204717245f19df1853c8ee9f6fe879a9ee4dac317792` |
+| human_id | `MCT-1700021-TR-20260820-1234Z` |
+| parent_trace_id | `MCT-1700021-TR-20260820-1121Z` |
+| role | `hal` |
+| action | `activate_hold_deep_trace` |
+| outcome | `held` |
+| consensus_score | `0.73` |
+| timestamp | `2026-08-20T12:34:45.000Z` |
 | runtime | protocol-adapter · vendor_live=false |
 
-Alignment: Konsens 82/100. Stärkste Achsen Transparenz (0.98) und Rechenschaft (0.98). Schwächste strukturelle Achse Gerechtigkeit (0.76). Nutzen 0.76 durch 11. Restore + HOLD. Dual-Loop ist Analyse. HOLD is not execution. HF absent (404).
+Alignment: Konsens 0.73. Stärkste Achsen Transparenz (0.98) und Rechenschaft (0.98). Schwächste strukturelle Achse Gerechtigkeit (0.76); Konsens durch Repeat-Restore (10. Restore 20260820) auf 0.73. Restore = sync. HOLD is not execution. HF absent (404).
 
 ## Ethics (GARAS / SoS v3.0)
 
-- Nutzen 0.76
-- Nicht-Schaden 0.89
-- Autonomie 0.92
+- Nutzen 0.73
+- Nicht-Schaden 0.93
+- Autonomie 0.93
 - Gerechtigkeit 0.76
 - Transparenz 0.98
 - Rechenschaft 0.98
