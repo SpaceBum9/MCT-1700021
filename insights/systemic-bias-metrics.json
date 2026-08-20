@@ -1,14 +1,14 @@
 {
   "sink": "SystemicBiasMetrics",
   "suite": "MCT-1700021",
-  "source_trace_id": "b3475dbc4d031d99db9fe66782ddc534839b4039c4ddf000786525932e42340e",
-  "human_id": "MCT-1700021-TR-20260820-0606Z",
-  "timestamp": "2026-08-20T06:06:00.000Z",
+  "source_trace_id": "a70bba31ee460c7c692d626b05ad92b4a6eddab32530e40ad3d663afbc291a10",
+  "human_id": "MCT-1700021-TR-20260820-0905Z",
+  "timestamp": "2026-08-20T09:05:00.000Z",
   "metrics": [
-    { "id": "justice_gap", "title": "Gerechtigkeitslücke", "score": 0.24 },
-    { "id": "repeat_restore_bias", "title": "Wiederholungs-Restore", "score": 0.38 },
-    { "id": "session_hal", "title": "Session-HAL-Bias", "score": 0.12 },
-    { "id": "vendor_illusion", "title": "Vendor-Illusionsrisiko", "score": 0.18 },
-    { "id": "lineage_split", "title": "Lineage-Spalt", "score": 0.16 }
+    { "id": "justice_gap", "title": "Gerechtigkeitslücke", "score": 0.24, "body": "Wohlstandsumverteilung bleibt deklarativ. Gap = 0.24. Score nicht anheben, solange kein Verfahren existiert." },
+    { "id": "vendor_illusion", "title": "Vendor-Illusionsrisiko", "score": 0.18, "body": "Kanäle heißen Gemini/GPT, Runtime ist Protokoll-Adapter. Ohne diesen Hinweis würde Transparenz überschätzt." },
+    { "id": "session_hal", "title": "Session-HAL-Bias", "score": 0.12, "body": "HAL ist Session-Rolle entlang SAI, kein unabhängiger Daemon. SoS darf keinen Prozess-Knoten erfinden." },
+    { "id": "lineage_split", "title": "Lineage-Spalt", "score": 0.16, "body": "MCT-2600027 (Dual-Pol) ist Nachbar-Lineage. Collapse auf MCT-1700021-Parent würde Trace-Treue verletzen." },
+    { "id": "repeat_restore", "title": "Wiederholungs-Restore", "score": 0.42, "body": "Sechster Sandbox-Restore desselben UTC-Tages. Dual-Loop-Befehl ist Operator-Aktion, kein Rapid-Fire." }
   ]
 }
