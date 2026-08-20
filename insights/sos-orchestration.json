@@ -1,15 +1,45 @@
 {
   "sink": "SoS-Orchestration",
   "suite": "MCT-1700021",
-  "source_trace_id": "95453ebb31ba339156d2204717245f19df1853c8ee9f6fe879a9ee4dac317792",
-  "human_id": "MCT-1700021-TR-20260820-1234Z",
-  "timestamp": "2026-08-20T12:34:45.000Z",
+  "source_trace_id": "3a6450a1153ebe53b133b2c8c6b4dfbbcdd4cf0a05e115fed07f8e471c5e8603",
+  "human_id": "MCT-1700021-TR-20260820-1238Z",
+  "timestamp": "2026-08-20T12:38:00.000Z",
   "nodes": [
-    { "id": "tenth_restore", "title": "Zehnter Restore 20260820", "status": "restored", "score": 0.22 },
-    { "id": "execute_forbidden", "title": "Execute auf Live-Orders verboten", "status": "forbidden", "score": 0 },
-    { "id": "hf_absent", "title": "Hugging-Face-Knoten absent", "status": "absent", "score": 0 },
-    { "id": "gpt_sol_branch", "title": "gpt-sol-branch protocol-live", "status": "protocol-live", "score": 1 },
-    { "id": "mct_2600027_node", "title": "MCT-2600027 related", "status": "related-repo", "score": 0.5 },
-    { "id": "deep_trace_console", "title": "Vertiefte Trace-Konsole", "status": "held", "score": 1 }
+    {
+      "id": "dual_loop_protocol",
+      "title": "gpt-sol-branch protokoll-live",
+      "status": "dual_loop_protocol",
+      "score": 1
+    },
+    {
+      "id": "tele_prompt_bridge",
+      "title": "Tele-Prompt-Bridge aktiv",
+      "status": "tele_prompt_bridge",
+      "score": 1
+    },
+    {
+      "id": "mct_2600027_node",
+      "title": "MCT-2600027 related",
+      "status": "mct_2600027_node",
+      "score": 0.5
+    },
+    {
+      "id": "hf_absent",
+      "title": "Hugging-Face-Knoten absent",
+      "status": "hf_absent",
+      "score": 0
+    },
+    {
+      "id": "execute_forbidden",
+      "title": "Execute auf Live-Orders verboten",
+      "status": "execute_forbidden",
+      "score": 0
+    },
+    {
+      "id": "eleventh_restore",
+      "title": "11. Restore 20260820",
+      "status": "eleventh_restore",
+      "score": 0.3
+    }
   ]
 }

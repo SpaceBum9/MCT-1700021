@@ -1,14 +1,39 @@
 {
   "sink": "SystemicBiasMetrics",
   "suite": "MCT-1700021",
-  "source_trace_id": "95453ebb31ba339156d2204717245f19df1853c8ee9f6fe879a9ee4dac317792",
-  "human_id": "MCT-1700021-TR-20260820-1234Z",
-  "timestamp": "2026-08-20T12:34:45.000Z",
+  "source_trace_id": "3a6450a1153ebe53b133b2c8c6b4dfbbcdd4cf0a05e115fed07f8e471c5e8603",
+  "human_id": "MCT-1700021-TR-20260820-1238Z",
+  "timestamp": "2026-08-20T12:38:00.000Z",
   "metrics": [
-    { "id": "justice_gap", "title": "Gerechtigkeitslücke", "score": 0.24 },
-    { "id": "repeat_restore_bias", "title": "Wiederholungs-Restore", "score": 0.68 },
-    { "id": "session_hal", "title": "Session-HAL-Bias", "score": 0.12 },
-    { "id": "vendor_illusion", "title": "Vendor-Illusionsrisiko", "score": 0.18 },
-    { "id": "lineage_split", "title": "Lineage-Spalt", "score": 0.16 }
+    {
+      "id": "justice_gap",
+      "title": "Gerechtigkeitsl\u00fccke",
+      "score": 0.24
+    },
+    {
+      "id": "vendor_illusion",
+      "title": "Vendor-Illusionsrisiko",
+      "score": 0.18
+    },
+    {
+      "id": "session_hal",
+      "title": "Session-HAL-Bias",
+      "score": 0.12
+    },
+    {
+      "id": "lineage_split",
+      "title": "Lineage-Spalt",
+      "score": 0.16
+    },
+    {
+      "id": "repeat_restore_bias",
+      "title": "Wiederholungs-Restore",
+      "score": 0.82
+    },
+    {
+      "id": "bridge_as_face",
+      "title": "Bridge als Fl\u00e4che",
+      "score": 0.1
+    }
   ]
 }
