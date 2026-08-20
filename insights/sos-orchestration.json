@@ -1,44 +1,14 @@
 {
   "sink": "SoS-Orchestration",
   "suite": "MCT-1700021",
-  "source_trace_id": "022db533bfb034b462f4ace3f11c43c5b1eb17807ed082bd2ae7958d86b44dbb",
-  "human_id": "MCT-1700021-TR-20260820-0003Z",
-  "timestamp": "2026-08-20T00:03:00Z",
+  "source_trace_id": "e735280dd90efd751bc75f3adef08202683208cc64c0fcd2aae868f80874605c",
+  "human_id": "MCT-1700021-TR-20260820-0018Z",
+  "timestamp": "2026-08-20T00:18:00.000Z",
   "nodes": [
-    {
-      "id": "dual_loop_protocol",
-      "title": "gpt-sol-branch protokoll-live",
-      "status": "protocol-live",
-      "body": "Knoten gpt-sol-branch bleibt protocol-live. Vertiefte Trace-Integration: jede Aktion schreibt SHA-256 + GARAS + dual_llm_summary. Action erlaubt: sync. Execute bleibt ECHOGLAS-verboten.",
-      "score": 1
-    },
-    {
-      "id": "mct_2600027_node",
-      "title": "MCT-2600027 related",
-      "status": "related-repo",
-      "body": "Repo SpaceBum9/MCT-2600027 Dual-Pol HAL/Zero Telepath. Status related-repo, nicht parent. Tägliche Automationen Oracle + Updater sichtbar, nicht execute.",
-      "score": 0.5
-    },
-    {
-      "id": "hf_absent",
-      "title": "Hugging-Face-Knoten absent",
-      "status": "absent",
-      "body": "https://huggingface.co/SpaceBum9 liefert 404 (00:03Z). SoS-Status bleibt absent.",
-      "score": 0
-    },
-    {
-      "id": "execute_forbidden",
-      "title": "Execute auf Live-Orders verboten",
-      "status": "forbidden",
-      "body": "dispatchLocal(execute → trader/welfare) wird rejected. HOLD ist nicht Execution.",
-      "score": 0
-    },
-    {
-      "id": "sandbox_restore",
-      "title": "Konsole restored",
-      "status": "restored",
-      "body": "Sandbox war Template-leer. 0003Z stellt die HOLD-Konsole wieder her. Restore = sync, nicht neue Capability.",
-      "score": 0.6
-    }
+    {"id": "second_restore", "title": "Zweiter Restore 20260820", "status": "restored", "score": 0.6},
+    {"id": "execute_forbidden", "title": "Execute auf Live-Orders verboten", "status": "forbidden", "score": 0},
+    {"id": "hf_absent", "title": "Hugging-Face-Knoten absent", "status": "absent", "score": 0},
+    {"id": "gpt_sol_branch", "title": "gpt-sol-branch protocol-live", "status": "protocol-live", "score": 1},
+    {"id": "mct_2600027_node", "title": "MCT-2600027 related", "status": "related-repo", "score": 0.5}
   ]
 }
