@@ -1,12 +1,12 @@
 {
   "suite": "MCT-1700021",
   "mode": "HOLD",
-  "trace_id": "fca79eabddd26f009dd67163fd911f835a7d3e97b8967570f49c4f4046b0a391",
-  "human_id": "MCT-1700021-TR-20260820-1121Z",
-  "parent_trace_id": "MCT-1700021-TR-20260820-1114Z",
-  "timestamp": "2026-08-20T11:21:24.000Z",
+  "trace_id": "793dbc082fa4e130f15711905398b4ed01f33f66142840a92da0d403f33c3a83",
+  "human_id": "MCT-1700021-TR-20260820-1207Z",
+  "parent_trace_id": "MCT-1700021-TR-20260820-1121Z",
+  "timestamp": "2026-08-20T12:07:00.000Z",
   "framework": "GARAS SoS v3.0",
-  "role": "hal",
+  "role": "dual_llm_bridge",
   "skills": {
     "mct-agentic-trader": "hold",
     "wohlstandsumverteilung-finance-manager": "hold",
