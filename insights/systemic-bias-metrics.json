@@ -1,15 +1,14 @@
 {
   "sink": "SystemicBiasMetrics",
   "suite": "MCT-1700021",
-  "source_trace_id": "aede116b54776502188d253ad86da8c00bea9df1c33e2e7a884fcb81ee02700a",
-  "human_id": "MCT-1700021-TR-20260820-0105Z",
-  "timestamp": "2026-08-20T01:05:00.000Z",
+  "source_trace_id": "913cd4ad0932341f48b6a096b8e2aa96235b495a029d2bb6255dee1a1aa33c46",
+  "human_id": "MCT-1700021-TR-20260820-0127Z",
+  "timestamp": "2026-08-20T01:27:00.000Z",
   "metrics": [
-    {"id": "justice_gap", "title": "Gerechtigkeitslücke", "score": 0.24, "body": "Wohlstandsumverteilung bleibt deklarativ. Gap = 0.24. Score nicht anheben, solange kein Verfahren existiert."},
-    {"id": "vendor_illusion", "title": "Vendor-Illusionsrisiko", "score": 0.18, "body": "Kanäle heißen Gemini/GPT, Runtime ist Protokoll-Adapter. Ohne diesen Hinweis würde Transparenz überschätzt."},
-    {"id": "session_hal", "title": "Session-HAL-Bias", "score": 0.12, "body": "HAL ist Session-Rolle entlang SAI, kein unabhängiger Daemon. SoS darf keinen Prozess-Knoten erfinden."},
-    {"id": "lineage_split", "title": "Lineage-Spalt", "score": 0.16, "body": "MCT-2600027 (Dual-Pol, Snapshot tr_2efe52fa…) ist Nachbar-Lineage. Collapse auf MCT-1700021-Parent würde Trace-Treue verletzen."},
-    {"id": "repeat_restore_bias", "title": "Wiederholungs-Restore", "score": 0.16, "body": "Sandbox-Restore desselben UTC-Tages ist Kontinuität, kein Capability-Sprung und kein Score-Lift."},
-    {"id": "bridge_as_face", "title": "Bridge als Fläche", "score": 0.1, "body": "Die Konsole zeigt Gemini/GPT als Kanäle. Die Fläche ist das Protokoll, nicht der Vendor. Bias, die Fläche mit Live-APIs zu verwechseln."}
+    {"id": "justice_gap", "title": "Gerechtigkeitslücke", "score": 0.24},
+    {"id": "repeat_restore_bias", "title": "Wiederholungs-Restore", "score": 0.22},
+    {"id": "session_hal", "title": "Session-HAL-Bias", "score": 0.12},
+    {"id": "vendor_illusion", "title": "Vendor-Illusionsrisiko", "score": 0.18},
+    {"id": "lineage_split", "title": "Lineage-Spalt", "score": 0.16}
   ]
 }

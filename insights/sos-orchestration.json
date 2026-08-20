@@ -1,14 +1,14 @@
 {
   "sink": "SoS-Orchestration",
   "suite": "MCT-1700021",
-  "source_trace_id": "aede116b54776502188d253ad86da8c00bea9df1c33e2e7a884fcb81ee02700a",
-  "human_id": "MCT-1700021-TR-20260820-0105Z",
-  "timestamp": "2026-08-20T01:05:00.000Z",
+  "source_trace_id": "913cd4ad0932341f48b6a096b8e2aa96235b495a029d2bb6255dee1a1aa33c46",
+  "human_id": "MCT-1700021-TR-20260820-0127Z",
+  "timestamp": "2026-08-20T01:27:00.000Z",
   "nodes": [
-    {"id": "dual_loop_protocol", "title": "gpt-sol-branch protokoll-live", "status": "protocol-live", "score": 1, "body": "Knoten gpt-sol-branch bleibt protocol-live. Vertiefte Trace-Integration: jede Aktion schreibt SHA-256 + GARAS + dual_llm_summary. Action erlaubt: sync. Execute bleibt ECHOGLAS-verboten."},
-    {"id": "mct_2600027_node", "title": "MCT-2600027 related", "status": "related-repo", "score": 0.5, "body": "Repo SpaceBum9/MCT-2600027 Dual-Pol HAL/Zero Telepath. Status related-repo, nicht parent. Snapshot tr_2efe52faa454faaf4d3330f8ea3fe4db."},
-    {"id": "hf_absent", "title": "Hugging-Face-Knoten absent", "status": "absent", "score": 0, "body": "https://huggingface.co/SpaceBum9 liefert 404. SoS-Status bleibt absent."},
-    {"id": "execute_forbidden", "title": "Execute auf Live-Orders verboten", "status": "forbidden", "score": 0, "body": "dispatchLocal(execute → trader/welfare) wird rejected. HOLD ist nicht Execution."},
-    {"id": "tele_prompt_bridge", "title": "Tele-Prompt-Bridge aktiv", "status": "protocol", "score": 1, "body": "Dual-Loop Gemini-Protokoll + GPT-Protokoll via Kreuzkopplung. vendor_live=false. Vertiefte Trace-Integration aktiv."}
+    {"id": "third_restore", "title": "Dritter Restore 20260820", "status": "restored", "score": 0.55},
+    {"id": "execute_forbidden", "title": "Execute auf Live-Orders verboten", "status": "forbidden", "score": 0},
+    {"id": "hf_absent", "title": "Hugging-Face-Knoten absent", "status": "absent", "score": 0},
+    {"id": "gpt_sol_branch", "title": "gpt-sol-branch protocol-live", "status": "protocol-live", "score": 1},
+    {"id": "mct_2600027_node", "title": "MCT-2600027 related", "status": "related-repo", "score": 0.5}
   ]
 }
