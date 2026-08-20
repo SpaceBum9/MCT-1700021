@@ -1,15 +1,45 @@
 {
   "sink": "SoS-Orchestration",
   "suite": "MCT-1700021",
-  "source_trace_id": "5265938c8ddeb5218c7ef8654c37d15e8b67152df6ed9b1091eec55dded943fe",
-  "human_id": "MCT-1700021-TR-20260820-0917Z",
-  "timestamp": "2026-08-20T09:17:00.000Z",
+  "source_trace_id": "f7218465de616ad28a17d6ff99a546b462ed3e5b74ab8b1557fcb8717a90ed9c",
+  "human_id": "MCT-1700021-TR-20260820-0928Z",
+  "timestamp": "2026-08-20T09:28:16.000Z",
   "nodes": [
-    { "id": "dual_loop_protocol", "title": "gpt-sol-branch protokoll-live", "status": "protocol-live", "score": 1, "body": "Knoten gpt-sol-branch bleibt protocol-live (MCT-1700021-TR-20260820-0917Z). Vertiefte Trace-Integration: jede Aktion schreibt SHA-256 + GARAS + dual_llm_summary. Action erlaubt: sync. Execute bleibt ECHOGLAS-verboten." },
-    { "id": "mct_2600027_node", "title": "MCT-2600027 related", "status": "related-repo", "score": 0.5, "body": "Repo SpaceBum9/MCT-2600027 Dual-Pol HAL/Zero Telepath. Status related-repo, nicht parent. Snapshot tr_2efe52faa454faaf4d3330f8ea3fe4db." },
-    { "id": "hf_absent", "title": "Hugging-Face-Knoten absent", "status": "absent", "score": 0, "body": "https://huggingface.co/SpaceBum9 liefert 404 (09:17Z). SoS-Status bleibt absent." },
-    { "id": "execute_forbidden", "title": "Execute auf Live-Orders verboten", "status": "forbidden", "score": 0, "body": "dispatchLocal(execute → trader/welfare) wird rejected. HOLD ist nicht Execution." },
-    { "id": "seventh_restore", "title": "Siebter Restore 20260820", "status": "restored", "score": 0.35, "body": "Sandbox war Template-leer. 0917Z stellt die HOLD-Konsole wieder her und aktiviert den Dual-Loop. Restore = sync, nicht neue Capability." },
-    { "id": "tele_prompt_bridge", "title": "Tele-Prompt-Bridge aktiv", "status": "protocol", "score": 1, "body": "Dual-Loop Gemini-Protokoll + GPT-Protokoll via Kreuzkopplung. vendor_live=false. Vertiefte Trace-Integration aktiv." }
+    {
+      "id": "seventh_restore",
+      "title": "Siebter Restore 20260820",
+      "status": "restored",
+      "score": 0.38
+    },
+    {
+      "id": "execute_forbidden",
+      "title": "Execute auf Live-Orders verboten",
+      "status": "forbidden",
+      "score": 0
+    },
+    {
+      "id": "hf_absent",
+      "title": "Hugging-Face-Knoten absent",
+      "status": "absent",
+      "score": 0
+    },
+    {
+      "id": "gpt_sol_branch",
+      "title": "gpt-sol-branch protocol-live",
+      "status": "protocol-live",
+      "score": 1
+    },
+    {
+      "id": "mct_2600027_node",
+      "title": "MCT-2600027 related",
+      "status": "related-repo",
+      "score": 0.5
+    },
+    {
+      "id": "deep_trace_console",
+      "title": "Vertiefte Trace-Konsole",
+      "status": "held",
+      "score": 1
+    }
   ]
 }
