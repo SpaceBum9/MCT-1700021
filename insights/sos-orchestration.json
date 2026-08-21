@@ -1,15 +1,51 @@
 {
   "sink": "SoS-Orchestration",
   "suite": "MCT-1700021",
-  "source_trace_id": "c8c4fb9204acfe07267d10a54d11cf008d1b779c40a1ad81ff2b3d472a071569",
-  "human_id": "MCT-1700021-TR-20260821-1335Z",
-  "timestamp": "2026-08-21T13:35:00.000Z",
+  "source_trace_id": "678318c3bb6de51697d3805346e7a458f921a4f65fe31eb6638bf9b49ed01629",
+  "human_id": "MCT-1700021-TR-20260821-1410Z",
+  "timestamp": "2026-08-21T14:10:14.000Z",
   "nodes": [
-    {"id": "dual_loop_protocol", "title": "gpt-sol-branch protokoll-live", "status": "protocol-live", "score": 1},
-    {"id": "tele_prompt_bridge", "title": "Tele-Prompt-Bridge aktiv", "status": "protocol", "score": 1},
-    {"id": "mct_2600027_node", "title": "MCT-2600027 related", "status": "related-repo", "score": 0.5},
-    {"id": "hf_absent", "title": "Hugging-Face-Knoten absent", "status": "absent", "score": 0},
-    {"id": "execute_forbidden", "title": "Execute auf Live-Orders verboten", "status": "forbidden", "score": 0},
-    {"id": "restore_20260821_17", "title": "17. Restore 20260821", "status": "restored", "score": 0.02}
+    {
+      "id": "dual_loop_protocol",
+      "title": "gpt-sol-branch protokoll-live",
+      "status": "protocol-live",
+      "score": 1
+    },
+    {
+      "id": "tele_prompt_bridge",
+      "title": "Tele-Prompt-Bridge aktiv",
+      "status": "protocol",
+      "score": 1
+    },
+    {
+      "id": "console_hold",
+      "title": "HOLD-Konsole materialisiert",
+      "status": "hold-live",
+      "score": 0.7
+    },
+    {
+      "id": "mct_2600027_node",
+      "title": "MCT-2600027 related",
+      "status": "related-repo",
+      "score": 0.5
+    },
+    {
+      "id": "hf_absent",
+      "title": "Hugging-Face-Knoten absent",
+      "status": "absent",
+      "score": 0
+    },
+    {
+      "id": "execute_forbidden",
+      "title": "Execute auf Live-Orders verboten",
+      "status": "forbidden",
+      "score": 0
+    },
+    {
+      "id": "restore_20260821_18",
+      "title": "18. Restore 20260821",
+      "status": "restored",
+      "score": 0.02
+    }
   ]
 }
