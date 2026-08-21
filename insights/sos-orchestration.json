@@ -1,45 +1,15 @@
 {
   "sink": "SoS-Orchestration",
   "suite": "MCT-1700021",
-  "source_trace_id": "2c0e6085b2321f2bbe407f1545f086b5eb01dccb1feca59b1ab9b5536353f558",
-  "human_id": "MCT-1700021-TR-20260821-0924Z",
-  "timestamp": "2026-08-21T09:24:00.000Z",
+  "source_trace_id": "c8db1af5b79bda07858a6705d8bd7b829bf23dda35a4f061bdf6fbc3b4fdda78",
+  "human_id": "MCT-1700021-TR-20260821-1000Z",
+  "timestamp": "2026-08-21T10:00:00.000Z",
   "nodes": [
-    {
-      "id": "dual_loop_protocol",
-      "title": "gpt-sol-branch protokoll-live",
-      "status": "dual_loop_protocol",
-      "score": 1
-    },
-    {
-      "id": "tele_prompt_bridge",
-      "title": "Tele-Prompt-Bridge aktiv",
-      "status": "tele_prompt_bridge",
-      "score": 1
-    },
-    {
-      "id": "mct_2600027_node",
-      "title": "MCT-2600027 related",
-      "status": "mct_2600027_node",
-      "score": 0.5
-    },
-    {
-      "id": "hf_absent",
-      "title": "Hugging-Face-Knoten absent",
-      "status": "hf_absent",
-      "score": 0
-    },
-    {
-      "id": "execute_forbidden",
-      "title": "Execute auf Live-Orders verboten",
-      "status": "execute_forbidden",
-      "score": 0
-    },
-    {
-      "id": "eleventh_restore_20260821",
-      "title": "11. Restore 20260821",
-      "status": "eleventh_restore_20260821",
-      "score": 0.06
-    }
+    {"id": "dual_loop_protocol", "title": "gpt-sol-branch protokoll-live", "status": "dual_loop_protocol", "score": 1},
+    {"id": "tele_prompt_bridge", "title": "Tele-Prompt-Bridge aktiv", "status": "tele_prompt_bridge", "score": 1},
+    {"id": "mct_2600027_node", "title": "MCT-2600027 related", "status": "mct_2600027_node", "score": 0.5},
+    {"id": "hf_absent", "title": "Hugging-Face-Knoten absent", "status": "hf_absent", "score": 0},
+    {"id": "execute_forbidden", "title": "Execute auf Live-Orders verboten", "status": "execute_forbidden", "score": 0},
+    {"id": "twelfth_restore_20260821", "title": "12. Restore 20260821", "status": "twelfth_restore_20260821", "score": 0.05}
   ]
 }
