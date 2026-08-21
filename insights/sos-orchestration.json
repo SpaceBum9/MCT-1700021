@@ -1,9 +1,9 @@
 {
   "sink": "SoS-Orchestration",
   "suite": "MCT-1700021",
-  "source_trace_id": "22bf69278f6a68d20acbc2c21ffb2107a5a3e36ca604f26bff8a41e1945f403d",
-  "human_id": "MCT-1700021-TR-20260821-0422Z",
-  "timestamp": "2026-08-21T04:22:24.000Z",
+  "source_trace_id": "5eaa71c89ddcf69445c77172c961ce872c005d9a481df5a1236dc6e2b2a5f72a",
+  "human_id": "MCT-1700021-TR-20260821-0505Z",
+  "timestamp": "2026-08-21T05:05:12.000Z",
   "nodes": [
     {
       "id": "dual_loop_protocol",
@@ -36,10 +36,10 @@
       "score": 0
     },
     {
-      "id": "third_restore_20260821",
-      "title": "3. Restore 20260821",
-      "status": "third_restore_20260821",
-      "score": 0.22
+      "id": "fourth_restore_20260821",
+      "title": "4. Restore 20260821",
+      "status": "fourth_restore_20260821",
+      "score": 0.18
     }
   ]
 }
