@@ -148,48 +148,219 @@
       }
     ],
     "insights": [
-      { "id": "justice_gap", "sink": "SystemicBiasMetrics", "title": "Gerechtigkeitslücke", "body": "Wohlstandsumverteilung bleibt deklarativ. Gap = 0.24.", "score": 0.24 },
-      { "id": "vendor_illusion", "sink": "SystemicBiasMetrics", "title": "Vendor-Illusionsrisiko", "body": "Kanäle heißen Gemini/GPT, Runtime ist Protokoll-Adapter.", "score": 0.18 },
-      { "id": "session_hal", "sink": "SystemicBiasMetrics", "title": "Session-HAL-Bias", "body": "HAL ist Session-Rolle entlang SAI, kein Daemon.", "score": 0.12 },
-      { "id": "lineage_split", "sink": "SystemicBiasMetrics", "title": "Lineage-Spalt", "body": "MCT-2600027 ist Nachbar-Lineage.", "score": 0.16 },
-      { "id": "repeat_restore_bias", "sink": "SystemicBiasMetrics", "title": "Wiederholungs-Restore", "body": "Dritter Restore des UTC-Tages 2026-08-21. Bias steigt gegenüber 2. Restore.", "score": 0.28 },
-      { "id": "bridge_as_face", "sink": "SystemicBiasMetrics", "title": "Bridge als Fläche", "body": "Die Fläche ist das Protokoll, nicht der Vendor.", "score": 0.1 },
-      { "id": "dual_loop_protocol", "sink": "SoS-Orchestration", "title": "gpt-sol-branch protokoll-live", "body": "Knoten bleibt protocol-live. Execute bleibt ECHOGLAS-verboten.", "score": 1 },
-      { "id": "tele_prompt_bridge", "sink": "SoS-Orchestration", "title": "Tele-Prompt-Bridge aktiv", "body": "Dual-Loop via Kreuzkopplung. vendor_live=false.", "score": 1 },
-      { "id": "mct_2600027_node", "sink": "SoS-Orchestration", "title": "MCT-2600027 related", "body": "Nicht Parent dieser Kette.", "score": 0.5 },
-      { "id": "hf_absent", "sink": "SoS-Orchestration", "title": "Hugging-Face-Knoten absent", "body": "https://huggingface.co/SpaceBum9 liefert 404.", "score": 0 },
-      { "id": "execute_forbidden", "sink": "SoS-Orchestration", "title": "Execute auf Live-Orders verboten", "body": "HOLD ist nicht Execution.", "score": 0 },
-      { "id": "third_restore_20260821", "sink": "SoS-Orchestration", "title": "3. Restore 20260821", "body": "Sandbox-Restore 3 des UTC-Tages. Konsole ist Sync, nicht Execute.", "score": 0.22 }
+      {
+        "id": "justice_gap",
+        "sink": "SystemicBiasMetrics",
+        "title": "Gerechtigkeitslücke",
+        "body": "Wohlstandsumverteilung bleibt deklarativ. Gap = 0.24.",
+        "score": 0.24
+      },
+      {
+        "id": "vendor_illusion",
+        "sink": "SystemicBiasMetrics",
+        "title": "Vendor-Illusionsrisiko",
+        "body": "Kanäle heißen Gemini/GPT, Runtime ist Protokoll-Adapter.",
+        "score": 0.18
+      },
+      {
+        "id": "session_hal",
+        "sink": "SystemicBiasMetrics",
+        "title": "Session-HAL-Bias",
+        "body": "HAL ist Session-Rolle entlang SAI, kein Daemon.",
+        "score": 0.12
+      },
+      {
+        "id": "lineage_split",
+        "sink": "SystemicBiasMetrics",
+        "title": "Lineage-Spalt",
+        "body": "MCT-2600027 ist Nachbar-Lineage.",
+        "score": 0.16
+      },
+      {
+        "id": "repeat_restore_bias",
+        "sink": "SystemicBiasMetrics",
+        "title": "Wiederholungs-Restore",
+        "body": "Dritter Restore des UTC-Tages 2026-08-21. Bias steigt gegenüber 2. Restore.",
+        "score": 0.28
+      },
+      {
+        "id": "bridge_as_face",
+        "sink": "SystemicBiasMetrics",
+        "title": "Bridge als Fläche",
+        "body": "Die Fläche ist das Protokoll, nicht der Vendor.",
+        "score": 0.1
+      },
+      {
+        "id": "dual_loop_protocol",
+        "sink": "SoS-Orchestration",
+        "title": "gpt-sol-branch protokoll-live",
+        "body": "Knoten bleibt protocol-live. Execute bleibt ECHOGLAS-verboten.",
+        "score": 1
+      },
+      {
+        "id": "tele_prompt_bridge",
+        "sink": "SoS-Orchestration",
+        "title": "Tele-Prompt-Bridge aktiv",
+        "body": "Dual-Loop via Kreuzkopplung. vendor_live=false.",
+        "score": 1
+      },
+      {
+        "id": "mct_2600027_node",
+        "sink": "SoS-Orchestration",
+        "title": "MCT-2600027 related",
+        "body": "Nicht Parent dieser Kette.",
+        "score": 0.5
+      },
+      {
+        "id": "hf_absent",
+        "sink": "SoS-Orchestration",
+        "title": "Hugging-Face-Knoten absent",
+        "body": "https://huggingface.co/SpaceBum9 liefert 404.",
+        "score": 0
+      },
+      {
+        "id": "execute_forbidden",
+        "sink": "SoS-Orchestration",
+        "title": "Execute auf Live-Orders verboten",
+        "body": "HOLD ist nicht Execution.",
+        "score": 0
+      },
+      {
+        "id": "third_restore_20260821",
+        "sink": "SoS-Orchestration",
+        "title": "3. Restore 20260821",
+        "body": "Sandbox-Restore 3 des UTC-Tages. Konsole ist Sync, nicht Execute.",
+        "score": 0.22
+      }
     ],
     "coupling": {
       "relativeDivergence": 0.1,
-      "weights": [0.51, 0.49],
+      "weights": [
+        0.51,
+        0.49
+      ],
       "phase": "COUPLING_DOWN"
     }
   },
   "expansion": {
-    "github": { "status": "live", "evidence": "SpaceBum9: 8 Repos (7 public + Jonas-G. privat). MCT-1700021, crystal-galaxy, kreuzkopplung, MCT-2600027, MCT-2600027-CMD, mct-170021-zero-tier-quantum-skills-tools-mcp-connectors, plasma-toxogon, Jonas-G." },
-    "drive": { "status": "live", "evidence": "Ordner MCT-1700021-traces (1vscCMjHD-7Atl_OtUFbSvbXBbLdw7t1r). Parent 0410Z. Dieser Lauf hängt 0422Z an." },
-    "huggingface": { "status": "absent", "evidence": "https://huggingface.co/SpaceBum9 liefert 404 (reconfirmed 2026-08-21T04:22Z)." },
-    "bridge": { "status": "protocol", "evidence": "Tele-Prompt-Bridge: Gemini-Protokoll + GPT-Protokoll via Kreuzkopplung. vendor_live=false (ECHOGLAS)." },
-    "mct2600027": { "status": "related-repo", "evidence": "SpaceBum9/MCT-2600027 Dual-Pol HAL/Zero Telepath. Nicht Parent dieser Kette." },
-    "hal": { "status": "session-role", "evidence": "Diese Session: role=hal. HAL bleibt Session-Rolle, kein Daemon." },
-    "reinforce": { "status": "code", "evidence": "crystal-galaxy/reinforce.ts (UP 1.15 / DOWN 0.75). Session-Demo." },
-    "bilo": { "status": "core-label", "evidence": "crystal-galaxy: BILO 2026 · HAL for everybody. Label, not statute." }
+    "github": {
+      "status": "live",
+      "evidence": "SpaceBum9: 8 Repos (7 public + Jonas-G. privat). MCT-1700021, crystal-galaxy, kreuzkopplung, MCT-2600027, MCT-2600027-CMD, mct-170021-zero-tier-quantum-skills-tools-mcp-connectors, plasma-toxogon, Jonas-G."
+    },
+    "drive": {
+      "status": "live",
+      "evidence": "Ordner MCT-1700021-traces (1vscCMjHD-7Atl_OtUFbSvbXBbLdw7t1r). Parent 0410Z. Dieser Lauf hängt 0422Z an."
+    },
+    "huggingface": {
+      "status": "absent",
+      "evidence": "https://huggingface.co/SpaceBum9 liefert 404 (reconfirmed 2026-08-21T04:22Z)."
+    },
+    "bridge": {
+      "status": "protocol",
+      "evidence": "Tele-Prompt-Bridge: Gemini-Protokoll + GPT-Protokoll via Kreuzkopplung. vendor_live=false (ECHOGLAS)."
+    },
+    "mct2600027": {
+      "status": "related-repo",
+      "evidence": "SpaceBum9/MCT-2600027 Dual-Pol HAL/Zero Telepath. Nicht Parent dieser Kette."
+    },
+    "hal": {
+      "status": "session-role",
+      "evidence": "Diese Session: role=hal. HAL bleibt Session-Rolle, kein Daemon."
+    },
+    "reinforce": {
+      "status": "code",
+      "evidence": "crystal-galaxy/reinforce.ts (UP 1.15 / DOWN 0.75). Session-Demo."
+    },
+    "bilo": {
+      "status": "core-label",
+      "evidence": "crystal-galaxy: BILO 2026 · HAL for everybody. Label, not statute."
+    }
   },
   "skills": [
-    { "id": "mct-agentic-trader", "label": "Agentic Trader", "hold": true, "runtime": "paper", "note": "Paper-Book in der Konsole. Keine Live-Orders (ECHOGLAS)." },
-    { "id": "wohlstandsumverteilung-finance-manager", "label": "Wohlstandsumverteilung", "hold": true, "runtime": "schema", "note": "GARAS SoS v3.0-Achsen nur deklarativ. Keine Mittelbewegung." },
-    { "id": "welfare-ibc-middleware", "label": "Welfare IBC", "hold": true, "runtime": "intent-only", "note": "Intent-Log. Keine IBC- oder Chain-Ausführung." },
-    { "id": "multilingual-greeting", "label": "Multilingual Greeting", "hold": true, "runtime": "available", "note": "Acht Sprachen in der Konsole. Geringes Risiko." },
-    { "id": "grok-blackbox-history", "label": "Blackbox History", "hold": true, "runtime": "partial", "note": "Parent-Kette in GitHub + Drive + Live-Ledger." },
-    { "id": "grok-imagine-api", "label": "Imagine API", "hold": true, "runtime": "available", "note": "Nutzerinitiiert, Session-Queue. Kein Vendor-Spend." },
-    { "id": "grok-imagine-full-history", "label": "Imagine History", "hold": true, "runtime": "session-store", "note": "Session-Store in der Konsole, kein Langzeit-Archiv." },
-    { "id": "imagine-media-access", "label": "Imagine Media", "hold": true, "runtime": "session", "note": "Nur Session-Werkzeuge." },
-    { "id": "kassenbeleg-parser", "label": "Kassenbeleg-Parser", "hold": true, "runtime": "session", "note": "Lokaler DE-Belegparser. Kein Upload nach außen." },
-    { "id": "sat-track-3d-ios", "label": "Sat Track 3D", "hold": true, "runtime": "related-repo", "note": "Nachbar MCT-2600027-CMD. Hier nur Web-Sim." },
-    { "id": "telegram-ios-app", "label": "Telegram iOS", "hold": true, "runtime": "intent-only", "note": "Design-Intent. Telegram-IP wird nicht geklont." },
-    { "id": "gpt-sol-branch", "label": "GPT-SOL Branch", "hold": true, "runtime": "protocol-live", "note": "Tele-Prompt-Bridge: Dual-Protokoll Gemini/GPT, keine Vendor-APIs." }
+    {
+      "id": "mct-agentic-trader",
+      "label": "Agentic Trader",
+      "hold": true,
+      "runtime": "paper",
+      "note": "Paper-Book in der Konsole. Keine Live-Orders (ECHOGLAS)."
+    },
+    {
+      "id": "wohlstandsumverteilung-finance-manager",
+      "label": "Wohlstandsumverteilung",
+      "hold": true,
+      "runtime": "schema",
+      "note": "GARAS SoS v3.0-Achsen nur deklarativ. Keine Mittelbewegung."
+    },
+    {
+      "id": "welfare-ibc-middleware",
+      "label": "Welfare IBC",
+      "hold": true,
+      "runtime": "intent-only",
+      "note": "Intent-Log. Keine IBC- oder Chain-Ausführung."
+    },
+    {
+      "id": "multilingual-greeting",
+      "label": "Multilingual Greeting",
+      "hold": true,
+      "runtime": "available",
+      "note": "Acht Sprachen in der Konsole. Geringes Risiko."
+    },
+    {
+      "id": "grok-blackbox-history",
+      "label": "Blackbox History",
+      "hold": true,
+      "runtime": "partial",
+      "note": "Parent-Kette in GitHub + Drive + Live-Ledger."
+    },
+    {
+      "id": "grok-imagine-api",
+      "label": "Imagine API",
+      "hold": true,
+      "runtime": "available",
+      "note": "Nutzerinitiiert, Session-Queue. Kein Vendor-Spend."
+    },
+    {
+      "id": "grok-imagine-full-history",
+      "label": "Imagine History",
+      "hold": true,
+      "runtime": "session-store",
+      "note": "Session-Store in der Konsole, kein Langzeit-Archiv."
+    },
+    {
+      "id": "imagine-media-access",
+      "label": "Imagine Media",
+      "hold": true,
+      "runtime": "session",
+      "note": "Nur Session-Werkzeuge."
+    },
+    {
+      "id": "kassenbeleg-parser",
+      "label": "Kassenbeleg-Parser",
+      "hold": true,
+      "runtime": "session",
+      "note": "Lokaler DE-Belegparser. Kein Upload nach außen."
+    },
+    {
+      "id": "sat-track-3d-ios",
+      "label": "Sat Track 3D",
+      "hold": true,
+      "runtime": "related-repo",
+      "note": "Nachbar MCT-2600027-CMD. Hier nur Web-Sim."
+    },
+    {
+      "id": "telegram-ios-app",
+      "label": "Telegram iOS",
+      "hold": true,
+      "runtime": "intent-only",
+      "note": "Design-Intent. Telegram-IP wird nicht geklont."
+    },
+    {
+      "id": "gpt-sol-branch",
+      "label": "GPT-SOL Branch",
+      "hold": true,
+      "runtime": "protocol-live",
+      "note": "Tele-Prompt-Bridge: Dual-Protokoll Gemini/GPT, keine Vendor-APIs."
+    }
   ],
   "limits": [
     "No raw evidence",
