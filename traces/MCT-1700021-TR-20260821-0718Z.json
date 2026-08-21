@@ -1,0 +1,23 @@
+{
+  "human_id": "MCT-1700021-TR-20260821-0718Z",
+  "parent_trace_id": "MCT-1700021-TR-20260821-0712Z",
+  "parent_sha256": "423564bf64e6522fabd40a9a2119302214ffe7d60f2689b9ab4efb06214ebb4d",
+  "sibling_trace_ids": [],
+  "lineage_trace_id": "MCT-170021-CORE",
+  "kernel_parent": "CG-KERNEL-2026-08-19",
+  "role": "hal",
+  "action": "activate_hold_deep_trace",
+  "outcome": "held",
+  "ethics_alignment": {
+    "nutzen": 0.55,
+    "nicht_schaden": 0.94,
+    "autonomie": 0.93,
+    "gerechtigkeit": 0.76,
+    "transparenz": 0.98,
+    "rechenschaft": 0.98
+  },
+  "consensus_score": 0.73,
+  "timestamp": "2026-08-21T07:18:00.000Z",
+  "summary": "Skill-Suite HOLD mit vertiefter Trace-Integration. Achter Restore 2026-08-21. Parent MCT-1700021-TR-20260821-0712Z. GitHub live, Drive live, HF absent. Gerechtigkeit 0.76. Keine Live-Orders.",
+  "trace_id": "f6e914e362e82f928a833ceb1d6b98e5fd21ce5f1d8628972ed97719cf35196f"
+}
