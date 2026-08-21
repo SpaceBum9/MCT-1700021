@@ -1,9 +1,9 @@
 {
   "sink": "SystemicBiasMetrics",
   "suite": "MCT-1700021",
-  "source_trace_id": "a29191b38cceb14a8e007de088a841e082936e16318665f46485119bb8fd44fd",
-  "human_id": "MCT-1700021-TR-20260821-0808Z",
-  "timestamp": "2026-08-21T08:08:00.000Z",
+  "source_trace_id": "2413bf4c89d67dcbf126b618ace7c62a51e264a154ce2c8f931f09d8b476a839",
+  "human_id": "MCT-1700021-TR-20260821-0813Z",
+  "timestamp": "2026-08-21T08:13:00.000Z",
   "metrics": [
     {"id": "justice_gap", "title": "Gerechtigkeitslücke", "score": 0.24},
     {"id": "vendor_illusion", "title": "Vendor-Illusionsrisiko", "score": 0.18},

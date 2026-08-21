@@ -7,21 +7,21 @@ Lineage: `MCT-170021-CORE` ← parent `CG-KERNEL-2026-08-19`.
 
 | Field | Value |
 | --- | --- |
-| trace_id | `a29191b38cceb14a8e007de088a841e082936e16318665f46485119bb8fd44fd` |
-| human_id | `MCT-1700021-TR-20260821-0808Z` |
+| trace_id | `2413bf4c89d67dcbf126b618ace7c62a51e264a154ce2c8f931f09d8b476a839` |
+| human_id | `MCT-1700021-TR-20260821-0813Z` |
 | parent_trace_id | `MCT-1700021-TR-20260821-0718Z` |
 | role | `hal` |
 | action | `activate_hold_deep_trace` |
 | outcome | `held` |
-| consensus_score | `0.72` |
-| timestamp | `2026-08-21T08:08:00.000Z` |
+| consensus_score | `0.71` |
+| timestamp | `2026-08-21T08:13:00.000Z` |
 | runtime | Grok Build console · protocol-adapter · vendor_live=false |
 
-Alignment: Konsens 0.72. Stärkste Achsen Transparenz (0.98) und Rechenschaft (0.98). Schwächste strukturelle Achse Gerechtigkeit (0.76). Nutzen 0.51 durch 9. Restore des UTC-Tages 2026-08-21 plus laufende HOLD-Konsole. Dual-Loop ist Analyse. HOLD is not execution. HF absent (404).
+Alignment: Konsens 0.71. Stärkste Achsen Transparenz (0.98) und Rechenschaft (0.98). Schwächste strukturelle Achse Gerechtigkeit (0.76). Nutzen 0.52 durch 9. Restore des UTC-Tages 2026-08-21 plus laufende HOLD-Konsole. Dual-Loop ist Analyse. HOLD is not execution. HF absent (404).
 
 ## Ethics (GARAS / SoS v3.0)
 
-- Nutzen 0.51
+- Nutzen 0.52
 - Nicht-Schaden 0.94
 - Autonomie 0.93
 - Gerechtigkeit 0.76
