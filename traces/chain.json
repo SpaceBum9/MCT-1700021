@@ -1,15 +1,15 @@
 {
   "suite": "MCT-1700021",
   "lineage_trace_id": "MCT-170021-CORE",
-  "updated": "2026-08-21T03:16:06.000Z",
+  "updated": "2026-08-21T04:10:00.000Z",
   "head": {
-    "trace_id": "MCT-1700021-TR-20260821-0316Z",
-    "parent_trace_id": "MCT-1700021-TR-20260820-2010Z",
-    "sha256": "dae80edf664e4534b27e22ed8f79120a5ef22c3c65b0fb219c8cc0da96cc79a8",
+    "trace_id": "MCT-1700021-TR-20260821-0410Z",
+    "parent_trace_id": "MCT-1700021-TR-20260821-0316Z",
+    "sha256": "c56f423d4706a76895984e3631cd3b8af5ac76cd169f7f093799d5780e2eebe4",
     "role": "hal",
     "action": "activate_hold_deep_trace",
     "outcome": "held",
-    "consensus_score": 0.8
+    "consensus_score": 0.79
   },
-  "previous": "MCT-1700021-TR-20260820-2010Z"
+  "previous": "MCT-1700021-TR-20260821-0316Z"
 }
