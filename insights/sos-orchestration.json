@@ -1,15 +1,45 @@
 {
   "sink": "SoS-Orchestration",
   "suite": "MCT-1700021",
-  "source_trace_id": "2413bf4c89d67dcbf126b618ace7c62a51e264a154ce2c8f931f09d8b476a839",
-  "human_id": "MCT-1700021-TR-20260821-0813Z",
-  "timestamp": "2026-08-21T08:13:00.000Z",
+  "source_trace_id": "4d72e34dd106f5af0c84c3df1411eed9edb64019dc7c15fd37706761ae73bfef",
+  "human_id": "MCT-1700021-TR-20260821-0907Z",
+  "timestamp": "2026-08-21T09:07:00.000Z",
   "nodes": [
-    {"id": "dual_loop_protocol", "title": "gpt-sol-branch protokoll-live", "status": "dual_loop_protocol", "score": 1},
-    {"id": "tele_prompt_bridge", "title": "Tele-Prompt-Bridge aktiv", "status": "tele_prompt_bridge", "score": 1},
-    {"id": "mct_2600027_node", "title": "MCT-2600027 related", "status": "mct_2600027_node", "score": 0.5},
-    {"id": "hf_absent", "title": "Hugging-Face-Knoten absent", "status": "hf_absent", "score": 0},
-    {"id": "execute_forbidden", "title": "Execute auf Live-Orders verboten", "status": "execute_forbidden", "score": 0},
-    {"id": "ninth_restore_20260821", "title": "9. Restore 20260821", "status": "ninth_restore_20260821", "score": 0.08}
+    {
+      "id": "dual_loop_protocol",
+      "title": "gpt-sol-branch protokoll-live",
+      "status": "dual_loop_protocol",
+      "score": 1
+    },
+    {
+      "id": "tele_prompt_bridge",
+      "title": "Tele-Prompt-Bridge aktiv",
+      "status": "tele_prompt_bridge",
+      "score": 1
+    },
+    {
+      "id": "mct_2600027_node",
+      "title": "MCT-2600027 related",
+      "status": "mct_2600027_node",
+      "score": 0.5
+    },
+    {
+      "id": "hf_absent",
+      "title": "Hugging-Face-Knoten absent",
+      "status": "hf_absent",
+      "score": 0
+    },
+    {
+      "id": "execute_forbidden",
+      "title": "Execute auf Live-Orders verboten",
+      "status": "execute_forbidden",
+      "score": 0
+    },
+    {
+      "id": "tenth_restore_20260821",
+      "title": "10. Restore 20260821",
+      "status": "tenth_restore_20260821",
+      "score": 0.07
+    }
   ]
 }
