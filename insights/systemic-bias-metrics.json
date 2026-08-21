@@ -1,15 +1,39 @@
 {
   "sink": "SystemicBiasMetrics",
   "suite": "MCT-1700021",
-  "source_trace_id": "c8db1af5b79bda07858a6705d8bd7b829bf23dda35a4f061bdf6fbc3b4fdda78",
-  "human_id": "MCT-1700021-TR-20260821-1000Z",
-  "timestamp": "2026-08-21T10:00:00.000Z",
+  "source_trace_id": "b2900a78aca2a77d8d73343e4a57507176835717e832d487a2df116dd8669918",
+  "human_id": "MCT-1700021-TR-20260821-1013Z",
+  "timestamp": "2026-08-21T10:13:00.000Z",
   "metrics": [
-    {"id": "justice_gap", "title": "Gerechtigkeitslücke", "score": 0.24},
-    {"id": "vendor_illusion", "title": "Vendor-Illusionsrisiko", "score": 0.18},
-    {"id": "session_hal", "title": "Session-HAL-Bias", "score": 0.12},
-    {"id": "lineage_split", "title": "Lineage-Spalt", "score": 0.16},
-    {"id": "repeat_restore_bias", "title": "Wiederholungs-Restore", "score": 0.88},
-    {"id": "bridge_as_face", "title": "Bridge als Fläche", "score": 0.1}
+    {
+      "id": "justice_gap",
+      "title": "Gerechtigkeitslücke",
+      "score": 0.24
+    },
+    {
+      "id": "vendor_illusion",
+      "title": "Vendor-Illusionsrisiko",
+      "score": 0.18
+    },
+    {
+      "id": "session_hal",
+      "title": "Session-HAL-Bias",
+      "score": 0.12
+    },
+    {
+      "id": "lineage_split",
+      "title": "Lineage-Spalt",
+      "score": 0.16
+    },
+    {
+      "id": "repeat_restore_bias",
+      "title": "Wiederholungs-Restore",
+      "score": 0.88
+    },
+    {
+      "id": "bridge_as_face",
+      "title": "Bridge als Fläche",
+      "score": 0.1
+    }
   ]
 }
