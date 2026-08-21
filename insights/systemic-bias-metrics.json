@@ -1,9 +1,9 @@
 {
   "sink": "SystemicBiasMetrics",
   "suite": "MCT-1700021",
-  "source_trace_id": "5eaa71c89ddcf69445c77172c961ce872c005d9a481df5a1236dc6e2b2a5f72a",
-  "human_id": "MCT-1700021-TR-20260821-0505Z",
-  "timestamp": "2026-08-21T05:05:12.000Z",
+  "source_trace_id": "76d2982360ea223a398fa850577248372887ec91710ba012f95778173a090257",
+  "human_id": "MCT-1700021-TR-20260821-0614Z",
+  "timestamp": "2026-08-21T06:14:46.000Z",
   "metrics": [
     {
       "id": "justice_gap",
@@ -28,7 +28,7 @@
     {
       "id": "repeat_restore_bias",
       "title": "Wiederholungs-Restore",
-      "score": 0.34
+      "score": 0.42
     },
     {
       "id": "bridge_as_face",
