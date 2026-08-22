@@ -1,9 +1,9 @@
 {
   "sink": "SoS-Orchestration",
   "suite": "MCT-1700021",
-  "source_trace_id": "e5dbb38accb5c5105e33a92250f4b22e0b9a2520ed084ab9f9948e42b8b15175",
-  "human_id": "MCT-1700021-TR-20260822-1411Z",
-  "timestamp": "2026-08-22T14:11:47.000Z",
+  "source_trace_id": "ab1df2d45ec7925835b92112239dc571227c2cdad82109e04f4ec12494e0ba85",
+  "human_id": "MCT-1700021-TR-20260822-1416Z",
+  "timestamp": "2026-08-22T14:16:00.000Z",
   "nodes": [
     {
       "id": "dual_loop_protocol",
@@ -21,7 +21,7 @@
       "id": "console_hold",
       "title": "HOLD-Konsole materialisiert",
       "status": "hold-live",
-      "score": 0.9
+      "score": 0.88
     },
     {
       "id": "mct_2600027_node",
@@ -45,7 +45,7 @@
       "id": "restore_20260822_5",
       "title": "5. Restore 20260822",
       "status": "restored",
-      "score": 0.41
+      "score": 0.36
     }
   ]
 }
