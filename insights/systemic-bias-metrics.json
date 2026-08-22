@@ -1,13 +1,13 @@
 {
   "sink": "SystemicBiasMetrics",
   "suite": "MCT-1700021",
-  "source_trace_id": "ab1df2d45ec7925835b92112239dc571227c2cdad82109e04f4ec12494e0ba85",
-  "human_id": "MCT-1700021-TR-20260822-1416Z",
-  "timestamp": "2026-08-22T14:16:00.000Z",
+  "source_trace_id": "61efd8354e2141c6f9e24a14c9793b4343585b9b80d4175e4887cc447ebd3e8c",
+  "human_id": "MCT-1700021-TR-20260822-1616Z",
+  "timestamp": "2026-08-22T16:16:35.113Z",
   "metrics": [
     {
       "id": "justice_gap",
-      "title": "Gerechtigkeitslücke",
+      "title": "Gerechtigkeitsluecke",
       "score": 0.24
     },
     {
@@ -28,11 +28,11 @@
     {
       "id": "repeat_restore_bias",
       "title": "Wiederholungs-Restore",
-      "score": 0.32
+      "score": 0.36
     },
     {
       "id": "bridge_as_face",
-      "title": "Bridge als Fläche",
+      "title": "Bridge als Flaeche",
       "score": 0.1
     }
   ]
