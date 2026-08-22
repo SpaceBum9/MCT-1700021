@@ -1,51 +1,16 @@
 {
   "sink": "SoS-Orchestration",
   "suite": "MCT-1700021",
-  "source_trace_id": "17f58ec835e1268a52419729eee6d8efc73edf6048b7b488ba7e8afc3ff71048",
-  "human_id": "MCT-1700021-TR-20260822-0911Z",
-  "timestamp": "2026-08-22T09:11:33.337Z",
+  "source_trace_id": "630b89f098fa54dfbf93bf7a9fa44b2dce554679cc4433a4cb5ef115edc9a126",
+  "human_id": "MCT-1700021-TR-20260822-1322Z",
+  "timestamp": "2026-08-22T13:22:54.000Z",
   "nodes": [
-    {
-      "id": "dual_loop_protocol",
-      "title": "gpt-sol-branch protokoll-live",
-      "status": "protocol-live",
-      "score": 1
-    },
-    {
-      "id": "tele_prompt_bridge",
-      "title": "Tele-Prompt-Bridge aktiv",
-      "status": "protocol",
-      "score": 1
-    },
-    {
-      "id": "console_hold",
-      "title": "HOLD-Konsole materialisiert",
-      "status": "hold-live",
-      "score": 0.78
-    },
-    {
-      "id": "mct_2600027_node",
-      "title": "MCT-2600027 related",
-      "status": "related-repo",
-      "score": 0.5
-    },
-    {
-      "id": "hf_absent",
-      "title": "Hugging-Face-Knoten absent",
-      "status": "absent",
-      "score": 0
-    },
-    {
-      "id": "execute_forbidden",
-      "title": "Execute auf Live-Orders verboten",
-      "status": "forbidden",
-      "score": 0
-    },
-    {
-      "id": "restore_20260822_2",
-      "title": "2. Restore 20260822",
-      "status": "restored",
-      "score": 0.35
-    }
+    { "id": "dual_loop_protocol", "title": "gpt-sol-branch protokoll-live", "status": "protocol-live", "score": 1 },
+    { "id": "tele_prompt_bridge", "title": "Tele-Prompt-Bridge aktiv", "status": "protocol", "score": 1 },
+    { "id": "console_hold", "title": "HOLD-Konsole materialisiert", "status": "hold-live", "score": 0.86 },
+    { "id": "mct_2600027_node", "title": "MCT-2600027 related", "status": "related-repo", "score": 0.5 },
+    { "id": "hf_absent", "title": "Hugging-Face-Knoten absent", "status": "absent", "score": 0 },
+    { "id": "execute_forbidden", "title": "Execute auf Live-Orders verboten", "status": "forbidden", "score": 0 },
+    { "id": "restore_20260822_3", "title": "3. Restore 20260822", "status": "restored", "score": 0.44 }
   ]
 }
