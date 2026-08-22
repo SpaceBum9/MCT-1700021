@@ -1,10 +1,10 @@
 {
   "suite": "MCT-1700021",
   "mode": "HOLD",
-  "trace_id": "630b89f098fa54dfbf93bf7a9fa44b2dce554679cc4433a4cb5ef115edc9a126",
-  "human_id": "MCT-1700021-TR-20260822-1322Z",
-  "parent_trace_id": "MCT-1700021-TR-20260822-0911Z",
-  "timestamp": "2026-08-22T13:22:54.000Z",
+  "trace_id": "0d7f49f22116955482f1aad8449a9730b804be884fc8118bb974bd6de39198e9",
+  "human_id": "MCT-1700021-TR-20260822-1328Z",
+  "parent_trace_id": "MCT-1700021-TR-20260822-1322Z",
+  "timestamp": "2026-08-22T13:28:15.000Z",
   "framework": "GARAS SoS v3.0",
   "role": "dual_llm_bridge",
   "skills": {
