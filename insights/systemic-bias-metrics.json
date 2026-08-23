@@ -1,14 +1,14 @@
 {
   "sink": "SystemicBiasMetrics",
   "suite": "MCT-1700021",
-  "source_trace_id": "3698352c0e3af759979e3be9ba3450e2e640e56246222bbab6fa3eabd34ac29a",
-  "human_id": "MCT-1700021-TR-20260823-0403Z",
-  "timestamp": "2026-08-23T04:03:50.000Z",
+  "source_trace_id": "4faa57265202acc28dea6ce42b6efb501b09ad1038ca08556a4875a661cc75a4",
+  "human_id": "MCT-1700021-TR-20260823-0710Z",
+  "timestamp": "2026-08-23T07:10:16.000Z",
   "metrics": [
     {"id": "justice_gap", "title": "Gerechtigkeitslücke", "score": 0.24},
     {"id": "vendor_illusion", "title": "Vendor-Illusionsrisiko", "score": 0.18},
     {"id": "session_hal", "title": "Session-HAL-Bias", "score": 0.12},
     {"id": "lineage_split", "title": "Lineage-Spalt", "score": 0.16},
-    {"id": "repeat_restore_bias", "title": "Wiederholungs-Restore", "score": 0.22}
+    {"id": "repeat_restore_bias", "title": "Wiederholungs-Restore", "score": 0.28}
   ]
 }
