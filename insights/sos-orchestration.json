@@ -1,51 +1,16 @@
 {
   "sink": "SoS-Orchestration",
   "suite": "MCT-1700021",
-  "source_trace_id": "6510ef327582e9dddefba5905154fd1fd4e24bf203ec8c6bfe9d202eaf4ca73b",
-  "human_id": "MCT-1700021-TR-20260823-0019Z",
-  "timestamp": "2026-08-23T00:19:00.000Z",
+  "source_trace_id": "3698352c0e3af759979e3be9ba3450e2e640e56246222bbab6fa3eabd34ac29a",
+  "human_id": "MCT-1700021-TR-20260823-0403Z",
+  "timestamp": "2026-08-23T04:03:50.000Z",
   "nodes": [
-    {
-      "id": "dual_loop_protocol",
-      "title": "gpt-sol-branch protokoll-live",
-      "status": "protocol-live",
-      "score": 1
-    },
-    {
-      "id": "tele_prompt_bridge",
-      "title": "Tele-Prompt-Bridge aktiv",
-      "status": "protocol",
-      "score": 1
-    },
-    {
-      "id": "console_hold",
-      "title": "HOLD-Konsole materialisiert",
-      "status": "hold-live",
-      "score": 0.9
-    },
-    {
-      "id": "mct_2600027_node",
-      "title": "MCT-2600027 related",
-      "status": "related-repo",
-      "score": 0.5
-    },
-    {
-      "id": "hf_absent",
-      "title": "Hugging-Face-Knoten absent",
-      "status": "absent",
-      "score": 0
-    },
-    {
-      "id": "execute_forbidden",
-      "title": "Execute auf Live-Orders verboten",
-      "status": "forbidden",
-      "score": 0
-    },
-    {
-      "id": "restore_20260823_1",
-      "title": "1. Restore 20260823",
-      "status": "restored",
-      "score": 0.33
-    }
+    {"id": "dual_loop_protocol", "title": "gpt-sol-branch protokoll-live", "status": "protocol-live", "score": 1},
+    {"id": "tele_prompt_bridge", "title": "Tele-Prompt-Bridge aktiv", "status": "protocol", "score": 1},
+    {"id": "console_hold", "title": "HOLD-Konsole materialisiert", "status": "hold-live", "score": 0.92},
+    {"id": "mct_2600027_node", "title": "MCT-2600027 related", "status": "related-repo", "score": 0.5},
+    {"id": "hf_absent", "title": "Hugging-Face-Knoten absent", "status": "absent", "score": 0},
+    {"id": "execute_forbidden", "title": "Execute auf Live-Orders verboten", "status": "forbidden", "score": 0},
+    {"id": "restore_20260823_2", "title": "2. Restore 20260823", "status": "restored", "score": 0.31}
   ]
 }
