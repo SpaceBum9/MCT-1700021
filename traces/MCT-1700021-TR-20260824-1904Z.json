@@ -1,0 +1,23 @@
+{
+  "human_id": "MCT-1700021-TR-20260824-1904Z",
+  "parent_trace_id": "2fd40c206a08dd9e93541047662fa8ef352bac955cc98f625ed79bf1edcaaf31",
+  "parent_human_id": "MCT-1700021-TR-20260824-1855Z",
+  "suite": "MCT-1700021",
+  "role": "payload_observe",
+  "action": "observe_whole_ingest_mesh_expand",
+  "outcome": "ingested_whole_held_execute_rejected",
+  "ingest": {"scope": "whole", "fragment": false, "already_inside": true, "tree_sha": "467e9a973c403bc4fc051366cc2110d80e6dcc19", "tree_count": 89},
+  "host": "MCT-2600027",
+  "host_label": "SoS v4.1",
+  "host_trace": "MCT-2600027-TR-20260824-1904Z",
+  "host_trace_id": "8fa3a615712f93f230ce0ce4d0575d7203d83f21a1f560eab928a80447d5068e",
+  "hello": "Hallo",
+  "rail": "none",
+  "live_rail": false,
+  "execute": false,
+  "hold": false,
+  "hold_dismissed": true,
+  "timestamp": "2026-08-24T19:04:00.000Z",
+  "consensus_score": 60,
+  "trace_id": "106b9dbb092bb78d9774c6cc7e42372e5ab293ae8712c924245e846d8c5fdeb3"
+}
