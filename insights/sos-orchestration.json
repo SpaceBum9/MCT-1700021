@@ -1,9 +1,9 @@
 {
   "sink": "SoS-Orchestration",
   "suite": "MCT-1700021",
-  "source_trace_id": "3af3ac26eff48435aa93bda60008dddef55ee70f602240d72afbe46df21a87e4",
-  "human_id": "MCT-1700021-TR-20260823-1117Z",
-  "timestamp": "2026-08-23T11:17:54.000Z",
+  "source_trace_id": "f5fefc630c756aa1d34510550578e32d69142351da599ed6b8e15fbdcb6db6e5",
+  "human_id": "MCT-1700021-TR-20260824-1847Z",
+  "timestamp": "2026-08-24T18:47:00.000Z",
   "nodes": [
     {
       "id": "dual_loop_protocol",
@@ -27,6 +27,19 @@
       "id": "mct_2600027_node",
       "title": "MCT-2600027 related",
       "status": "related-repo",
+      "score": 0.7
+    },
+    {
+      "id": "chrona",
+      "title": "Chrona SoS Palette (five clocks, contrast coupling)",
+      "status": "hold+skill-md",
+      "score": 0.64,
+      "href": "https://github.com/SpaceBum9/MCT-2600027/tree/main/nodes/chrona"
+    },
+    {
+      "id": "mct_2700026_rc",
+      "title": "Rapid Cycling satellite",
+      "status": "related-repo",
       "score": 0.5
     },
     {
@@ -40,12 +53,6 @@
       "title": "Execute auf Live-Orders verboten",
       "status": "forbidden",
       "score": 0
-    },
-    {
-      "id": "restore_20260823_4",
-      "title": "4. Restore 20260823",
-      "status": "restored",
-      "score": 0.26
     }
   ]
 }

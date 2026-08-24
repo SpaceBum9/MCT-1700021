@@ -1,0 +1,28 @@
+{
+  "human_id": "MCT-1700021-TR-20260824-1847Z",
+  "parent_trace_id": "3af3ac26eff48435aa93bda60008dddef55ee70f602240d72afbe46df21a87e4",
+  "parent_human_id": "MCT-1700021-TR-20260823-1117Z",
+  "suite": "MCT-1700021",
+  "role": "payload_observe",
+  "action": "observe_chrona_sos_node_on_host",
+  "outcome": "held",
+  "host": "MCT-2600027",
+  "host_trace": "MCT-2600027-TR-20260824-1847Z",
+  "host_trace_id": "f5fefc630c756aa1d34510550578e32d69142351da599ed6b8e15fbdcb6db6e5",
+  "hello": "Hallo",
+  "rail": "none",
+  "live_rail": false,
+  "execute": false,
+  "framework": "GARAS SoS v3.0",
+  "stack": "MCT-RC-BILO-ATM-FRAMEWORK-SOS",
+  "node": "chrona",
+  "timestamp": "2026-08-24T18:47:00.000Z",
+  "consensus_score": 54,
+  "limits": [
+    "No credentials",
+    "No live orders",
+    "HOLD is not execution",
+    "Do not fragment MCT-1700021"
+  ],
+  "trace_id": "8b222beeee35f0871bc118d6829fa7aa6188c1449774b522c6ba160d980331ed"
+}
