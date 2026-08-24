@@ -1,0 +1,28 @@
+{
+  "schema": "mct.repository-consolidation.v1",
+  "generated_on": "2026-08-24",
+  "target": "SpaceBum9/MCT-1700021",
+  "target_visibility": "public",
+  "sources": [
+    {
+      "repository": "SpaceBum9/MCT-Universe",
+      "commit": "ef734d8c88268f37447e2358aac67393c385c5e2",
+      "destination": "context/universe",
+      "adaptations": [
+        "repository links"
+      ]
+    },
+    {
+      "repository": "SpaceBum9/MCT-2700026",
+      "commit": "127bcd34781586c1fda8d6808c9bd001ce59c9b9",
+      "destination": "protocols/rapid-cycling",
+      "adaptations": [
+        "repository links",
+        "live_write=false",
+        "paper=true"
+      ]
+    }
+  ],
+  "private_content_imported": false,
+  "source_repositories_preserved": true
+}

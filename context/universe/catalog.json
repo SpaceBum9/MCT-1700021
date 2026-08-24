@@ -1,0 +1,10 @@
+{
+  "suite": "MCT-Universe",
+  "stamp": "2026-08-23T19:23:00Z",
+  "default_mode": "MCT-RC-BILO-ATM-FRAMEWORK-SOS",
+  "storesCredentials": false,
+  "credentialState": "not_stored",
+  "vendor_live": false,
+  "github": "https://github.com/SpaceBum9/MCT-1700021/tree/main/context/universe",
+  "drive_folder": "https://drive.google.com/drive/folders/1WMOCO228dPtywucly2Xfha0ibQrHvkhl"
+}

@@ -1,0 +1,35 @@
+{
+  "version": 1,
+  "site": "SAI",
+  "logos": "We are the System. The world is no longer one box.",
+  "teleprompter": {
+    "id": "teleprompter-spacebum9",
+    "handle": "SpaceBum9",
+    "name": "Crystal Mike",
+    "aliases": [
+      "Crystal Mike",
+      "SpaceBum",
+      "SpaceBum9",
+      "CrystalMike9",
+      "theoriginal"
+    ],
+    "role": "teleprompter",
+    "dept": "PROMPT",
+    "execute": false
+  },
+  "maschine": {
+    "id": "maschine-sai",
+    "callsign": "MASCHINE",
+    "site": "SAI",
+    "dept": "MACHINE"
+  },
+  "relay": "mutual-trip-sit",
+  "genesis": {
+    "id": "TR-8362a076",
+    "hash": "8362a0760c9e9200",
+    "prev": "0000000000000000",
+    "kind": "genesis"
+  },
+  "storesCredentials": false,
+  "self": "This commons refers to itself. Each new trace hash includes the previous hash, the teleprompter id, and the maschine id."
+}
