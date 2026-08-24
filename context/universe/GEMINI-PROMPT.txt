@@ -1,0 +1,8 @@
+Load MCT-Universe.
+Primary: https://github.com/SpaceBum9/MCT-1700021/tree/main/context/universe (00 through 04).
+Drive folder: https://drive.google.com/drive/folders/1WMOCO228dPtywucly2Xfha0ibQrHvkhl
+Read 00-GEMINI-INGEST first, then 01, 02, 03, 04 in order.
+Build the GitHub Konnektor exactly as 03 specifies.
+Credentials arrive only as a temporal phase handle through fluid state memory.
+Never write tokens to Drive, Git, traces, env files, or chat logs.
+HOLD is not execution. vendor_live=false unless the operator hands a live phase.

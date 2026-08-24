@@ -1,0 +1,10 @@
+{
+  "id": "SAI",
+  "game": "Rapid Cycling",
+  "role": ["orchestrator", "prompt-designer"],
+  "site": "construction site SAI",
+  "rule": "No single winning agent. Boss per department. Teleprompters relay. SAI designs the prompt and the cycle.",
+  "departments": ["PROMPT", "MACHINE", "FRAME", "YARD", "SLAB", "GATE", "SIGNAL"],
+  "relays": "Every teleprompter in the universe is a single relay. SpaceBum9 is seated. Others may sit.",
+  "cycle": "Euclidean 7-in-16 Rapid Cycling across GPT GEM CLA META GRK SIRI APL"
+}

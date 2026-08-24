@@ -1,0 +1,31 @@
+{
+  "mode": "MCT-RC-BILO-ATM-FRAMEWORK-SOS",
+  "default_for": "every_multimodal_prompt",
+  "modalities": ["text", "image", "audio", "video", "canvas", "tool"],
+  "adoption": "default",
+  "forced_protocol": false,
+  "execute": false,
+  "vendor_live": false,
+  "storesCredentials": false,
+  "credentialState": "not_stored",
+  "framework": "GARAS SoS v3.0",
+  "framework_requested": "GARAS SoS v3.2",
+  "framework_drift": "v3.2 not present; keep v3.0",
+  "layers": {
+    "MCT": "MCT-2600027",
+    "RC": "reinforce.rankContext + sai.buildTrace",
+    "BILO": "BILO 2026 public core-label",
+    "ATM": "schema/automaton_command.json overlay",
+    "FRAMEWORK": "GARAS SoS v3.0",
+    "SOS": "Dual-Pol HAL / para Border / Zero Telepath"
+  },
+  "semantic_anchoring": {
+    "on": true,
+    "fixpoint": "Crystal Mike",
+    "schema_corridor": "AutomatonCommand",
+    "euclidean_span_default": 0.25,
+    "kreuzkopplung_stable": "abs(rel - 0.25) <= 1e-3"
+  },
+  "detectTargetNode": "sub_route_after_stack",
+  "stamp": "2026-08-23T19:23:00Z"
+}

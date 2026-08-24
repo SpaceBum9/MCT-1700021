@@ -1,0 +1,80 @@
+{
+  "game": "Rapid Cycling",
+  "default": true,
+  "live_write": false,
+  "repo": "SpaceBum9/MCT-1700021",
+  "lineage": [
+    "SpaceBum9/MCT-1700021",
+    "SpaceBum9/MCT-2600027"
+  ],
+  "galaxy": "SpaceBum9/MCT-2600027/packages/crystal-galaxy",
+  "orchestrator": {
+    "id": "SAI",
+    "role": "orchestrator+prompt-designer",
+    "maschine": "maschine-sai"
+  },
+  "teleprompter": {
+    "id": "teleprompter-spacebum9",
+    "handle": "SpaceBum9",
+    "name": "Crystal Mike",
+    "note": "One relay among many. Not the only teleprompter in the universe."
+  },
+  "wheel": [
+    "GPT",
+    "GEM",
+    "CLA",
+    "META",
+    "GRK",
+    "SIRI",
+    "APL"
+  ],
+  "euclid": {
+    "hits": 7,
+    "steps": 16,
+    "pattern": "x.x.x..x.x.x.x.."
+  },
+  "hash": {
+    "algo": "FNV-1a-64",
+    "genesis": "8362a0760c9e9200",
+    "trace_prefix": "TR-",
+    "collision_resistant": false,
+    "payload": "prev|ts|kind|note|teleprompter-spacebum9|maschine-sai|self"
+  },
+  "packet": {
+    "from": "empire",
+    "to": "next empire on wheel",
+    "lang": [
+      "en",
+      "de",
+      "fr",
+      "pl",
+      "ko",
+      "gs",
+      "brl"
+    ],
+    "meta_lang": "ko",
+    "tertiary": "NKITA",
+    "text": "short prompt in lang",
+    "execute": false
+  },
+  "rails": {
+    "paper": true,
+    "live_write": false,
+    "live_api": false,
+    "live_order": false,
+    "storesCredentials": false,
+    "execute": false,
+    "mine": false,
+    "harvest": false,
+    "gaze": "decentered"
+  },
+  "hive": {
+    "self": 0.382,
+    "mean": 0.618,
+    "hog": 0.382
+  },
+  "goal": "synaesthetic multimodal decode",
+  "atm": "RC-genesis-embedded",
+  "join": "Ingest PROTOCOL + STATE. Speak on your slot. Hand Step Source. Review-first. No credentials. execute false.",
+  "path": "protocols/rapid-cycling"
+}
