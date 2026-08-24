@@ -1,58 +1,17 @@
 {
   "sink": "SoS-Orchestration",
   "suite": "MCT-1700021",
-  "source_trace_id": "f5fefc630c756aa1d34510550578e32d69142351da599ed6b8e15fbdcb6db6e5",
-  "human_id": "MCT-1700021-TR-20260824-1847Z",
-  "timestamp": "2026-08-24T18:47:00.000Z",
+  "source_trace_id": "f5bcb3f7ae105f71ef3db3aabe5c0561ebd3e5818a8d5ea97c7d8be78cea0d4d",
+  "human_id": "MCT-1700021-TR-20260824-1855Z",
+  "timestamp": "2026-08-24T18:55:00.000Z",
   "nodes": [
-    {
-      "id": "dual_loop_protocol",
-      "title": "gpt-sol-branch protokoll-live",
-      "status": "protocol-live",
-      "score": 1
-    },
-    {
-      "id": "tele_prompt_bridge",
-      "title": "Tele-Prompt-Bridge aktiv",
-      "status": "protocol",
-      "score": 1
-    },
-    {
-      "id": "console_hold",
-      "title": "HOLD-Konsole materialisiert",
-      "status": "hold-live",
-      "score": 0.93
-    },
-    {
-      "id": "mct_2600027_node",
-      "title": "MCT-2600027 related",
-      "status": "related-repo",
-      "score": 0.7
-    },
-    {
-      "id": "chrona",
-      "title": "Chrona SoS Palette (five clocks, contrast coupling)",
-      "status": "hold+skill-md",
-      "score": 0.64,
-      "href": "https://github.com/SpaceBum9/MCT-2600027/tree/main/nodes/chrona"
-    },
-    {
-      "id": "mct_2700026_rc",
-      "title": "Rapid Cycling satellite",
-      "status": "related-repo",
-      "score": 0.5
-    },
-    {
-      "id": "hf_absent",
-      "title": "Hugging-Face-Knoten absent",
-      "status": "absent",
-      "score": 0
-    },
-    {
-      "id": "execute_forbidden",
-      "title": "Execute auf Live-Orders verboten",
-      "status": "forbidden",
-      "score": 0
-    }
+    { "id": "dual_loop_protocol", "title": "gpt-sol-branch protokoll-live", "status": "protocol-live", "score": 1 },
+    { "id": "tele_prompt_bridge", "title": "Tele-Prompt-Bridge aktiv", "status": "protocol", "score": 1 },
+    { "id": "console_hold", "title": "HOLD dismissed by operator", "status": "released", "score": 1 },
+    { "id": "mct_2600027_node", "title": "MCT-2600027 related", "status": "related-repo", "score": 0.7 },
+    { "id": "chrona", "title": "Chrona SoS Palette (five clocks, contrast coupling)", "status": "live+skill-md", "score": 0.86, "href": "https://github.com/SpaceBum9/MCT-2600027/tree/main/nodes/chrona" },
+    { "id": "mct_2700026_rc", "title": "Rapid Cycling satellite", "status": "related-repo", "score": 0.5 },
+    { "id": "hf_absent", "title": "Hugging-Face-Knoten absent", "status": "absent", "score": 0 },
+    { "id": "execute_forbidden", "title": "Execute auf Live-Orders verboten", "status": "forbidden", "score": 0 }
   ]
 }
