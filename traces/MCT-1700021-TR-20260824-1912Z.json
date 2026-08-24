@@ -1,0 +1,33 @@
+{
+  "human_id": "MCT-1700021-TR-20260824-1912Z",
+  "parent_trace_id": "106b9dbb092bb78d9774c6cc7e42372e5ab293ae8712c924245e846d8c5fdeb3",
+  "parent_human_id": "MCT-1700021-TR-20260824-1904Z",
+  "suite": "MCT-1700021",
+  "role": "payload_observe",
+  "action": "observe_whole_ingest_skills_sync",
+  "outcome": "ingested_whole_skill_patches_gr1_hold_execute_rejected",
+  "ingest": {
+    "scope": "whole",
+    "fragment": false,
+    "already_inside": true,
+    "tree_sha": "46dd40ac51c4949723a8ec6504b74b173f49b3ec",
+    "tree_count_at_1904Z": 89,
+    "label_stands": true,
+    "superseded": false
+  },
+  "host": "MCT-2600027",
+  "host_label": "SoS v4.1",
+  "host_trace": "MCT-2600027-TR-20260824-1912Z",
+  "host_trace_id": "746699cb78b8e7954932f77656d4544668fc3e43e1dca0e5ee3e0ad6c1c1e87b",
+  "host_parent_human_id": "MCT-2600027-TR-20260824-1909Z",
+  "hello": "Hallo",
+  "rail": "none",
+  "live_rail": false,
+  "execute": false,
+  "hold": true,
+  "hold_dismissed": false,
+  "decided": "standalone",
+  "timestamp": "2026-08-24T19:12:00.000Z",
+  "consensus_score": 54,
+  "trace_id": "b777886dcaa3adf1feefad640e5174c37bfff1ebdfbdb520ba6c872c3be2952c"
+}
