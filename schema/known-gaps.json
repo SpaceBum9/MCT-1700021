@@ -1,0 +1,13 @@
+{
+  "schema_version": 1,
+  "suite": "MCT-1700021",
+  "note": "Recorded ledger gaps. They stay visible. They are not repaired by rewriting traces.",
+  "missing_parents": [
+    {
+      "child": "MCT-1700021-TR-20260821-0422Z",
+      "parent_trace_id": "MCT-1700021-TR-20260821-0410Z",
+      "status": "absent",
+      "recorded": "2026-09-15"
+    }
+  ]
+}
