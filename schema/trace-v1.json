@@ -1,0 +1,64 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://github.com/SpaceBum9/MCT-1700021/schema/trace-v1.json",
+  "title": "MCT-1700021 Trace v1",
+  "description": "Contract for NEW traces after 2026-09-15. Existing traces/MCT-1700021-TR-* files are immutable legacy and are not rewritten. A trace_id is correlation, not authorization.",
+  "type": "object",
+  "additionalProperties": true,
+  "required": [
+    "schema_version",
+    "suite",
+    "human_id",
+    "parent_trace_id",
+    "parent_human_id",
+    "role",
+    "action",
+    "outcome",
+    "timestamp",
+    "consensus_score",
+    "live_rail",
+    "execute",
+    "hold",
+    "limits"
+  ],
+  "properties": {
+    "schema_version": { "const": 1 },
+    "suite": { "const": "MCT-1700021" },
+    "human_id": {
+      "type": "string",
+      "pattern": "^MCT-1700021-TR-[0-9]{8}-[0-9]{4}Z$"
+    },
+    "trace_id": {
+      "type": "string",
+      "pattern": "^[0-9a-f]{64}$",
+      "description": "SHA-256 of canonical JSON of the object with trace_id and checkpoint_sha256 removed. Assigned after hashing."
+    },
+    "parent_trace_id": {
+      "type": "string",
+      "minLength": 1,
+      "description": "SHA-256 of parent payload, or an explicit root token (CG-KERNEL-2026-08-19, MCT-170021-CORE)."
+    },
+    "parent_human_id": { "type": ["string", "null"] },
+    "lineage_trace_id": { "const": "MCT-170021-CORE" },
+    "role": { "type": "string", "minLength": 1 },
+    "action": { "type": "string", "minLength": 1 },
+    "outcome": { "type": "string", "minLength": 1 },
+    "timestamp": {
+      "type": "string",
+      "pattern": "^[0-9]{4}-[0-9]{2}-[0-9]{2}T[0-9]{2}:[0-9]{2}:[0-9]{2}(\\.[0-9]+)?Z$"
+    },
+    "consensus_score": { "type": "number" },
+    "live_rail": { "const": false },
+    "execute": { "const": false },
+    "hold": { "type": "boolean" },
+    "limits": {
+      "type": "array",
+      "minItems": 1,
+      "items": { "type": "string" }
+    },
+    "host": {
+      "type": "string",
+      "description": "Related runtime host. Must not be written as parent of this chain."
+    }
+  }
+}
